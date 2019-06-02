@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
-import Naveen from './pages/players/naveen-balaji';
+import Player from './pages/player';
 import Home from './pages/home';
 
 function Routes() {
@@ -8,7 +8,7 @@ function Routes() {
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/player/naveen" exact component={Naveen} />
+        <Route path="/player/:playerName" exact component={Player} />
         <Redirect to="/" />
       </Switch>
     </BrowserRouter>
