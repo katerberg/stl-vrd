@@ -1,11 +1,12 @@
 .footer {
   position: fixed;
-  background: white;
   bottom: 0;
   left: 0;
   right: 0;
   display: flex;
   justify-content: center;
+  background: #cec8fd;
+  border-top: 2px solid #8c7efa;
 }
 
 .footer:not(:hover) img {
