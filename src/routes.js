@@ -4,7 +4,6 @@ import Naveen from './pages/players/naveen-balaji';
 import Home from './pages/home';
 
 function Routes() {
-
   return (
     <BrowserRouter>
       <Switch>
