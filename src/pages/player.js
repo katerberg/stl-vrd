@@ -1,12 +1,14 @@
 import React from 'react';
 import { getPlayers } from '../services/players';
 import { Redirect } from "react-router-dom";
+import './player.css';
 
 function Player(props) {
   const player = getPlayers()[props.match.params.playerName];
   if (!player) {
     return <Redirect to="/" />
   }
+
   return (
     <div className="player">
       <h1>{`${player.firstName} ${player.lastName}`}</h1>
