@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 126px);
+  flex-wrap: wrap;
+}
+
+.home h1 {
+  align-self: center;
+  font-size: 180px;;
+}
+
+.home h1:nth-child(1) {
+  margin-right: 180px;
+}
+
+.home h1:nth-child(2) {
+  margin-left: 180px;
+}
+
+@media only screen and (max-width:1070px) {
+  .home h1 {
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .home h1 {
+    font-size: 120px;
+  }
+}
