@@ -1,6 +1,7 @@
 import React from 'react';
 import { getPlayers } from '../services/players';
 import { Redirect } from "react-router-dom";
+import background from './player-background.png';
 import './player.css';
 
 function Player(props) {
@@ -11,10 +12,12 @@ function Player(props) {
 
   return (
     <div className="player">
+      <img className="background" alt={'background'} src={background} />
       <h1>{`${player.firstName} ${player.lastName}`}</h1>
       <div>Competitive Deck: {player.competitiveDeck}</div>
       <div>EDH Deck: {player.edhDeck}</div>
       <div>Previous VRD: {player.previousDeck}</div>
+      <div>Judge Level: {player.judgeLevel}</div>
       <img className="profile-picture" src={player.picture} alt={`Large format of ${player.firstName}`} />
     </div>
   );
