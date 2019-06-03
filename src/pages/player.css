@@ -13,8 +13,8 @@
 }
 
 .player .content img.profile-picture {
-  margin-top: 5%;
-  margin-left: 5%;
+  margin-top: 5vh;
+  margin-left: 5vw;
   border-radius: 20px;
   max-width: 300px;
   max-height: 500px;
@@ -22,12 +22,18 @@
 
 .player .content .name {
   position: absolute;
-  bottom: 5%;
-  left: 50vh;
+  bottom: 20%;
+  left: 40vw;
   right: auto;
 }
 
 .player .content h1 {
   font-size: 50px;
   margin: 0;
+}
+
+.player .content .text-block {
+  position: absolute;
+  right: 5vw;
+  top: 5vh;
 }

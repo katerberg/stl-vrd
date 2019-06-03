@@ -22,7 +22,7 @@ function Player(props) {
         <div className="text-block">
           <div>Competitive Deck: {player.competitiveDeck}</div>
           <div>EDH Deck: {player.edhDeck}</div>
-          <div>Previous VRD: {player.previousDeck}</div>
+          <div>Previous VRD: {player.previousDeck}{player.previousPlace ? ` (${player.previousPlace})`: ''}</div>
           <div>Judge Level: {player.judgeLevel}</div>
         </div>
       </div>

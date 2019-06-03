@@ -21,6 +21,7 @@ const naveenbalaji = {
   competitiveDeck: 'Modern Tron',
   edhDeck: '5-color Charms',
   previousDeck: 'Time Vault',
+  previousPlace: 1,
   judgeLevel: 0,
 };
 
@@ -32,6 +33,7 @@ const jeffblyden = {
   competitiveDeck: 'Legacy Elves',
   edhDeck: 'Foil Skithiryx',
   previousDeck: 'Reanimator',
+  previousPlace: 0,
   judgeLevel: 1,
 };
 
@@ -43,6 +45,7 @@ const stephenhagan = {
   competitiveDeck: '',
   edhDeck: 'Riku Doublers',
   previousDeck: 'N/A',
+  previousPlace: null,
   judgeLevel: 2,
 };
 
@@ -54,6 +57,7 @@ const elainecao = {
   competitiveDeck: 'UW Control',
   edhDeck: '',
   previousDeck: 'Hate Bears',
+  previousPlace: 0,
   judgeLevel: 2,
 };
 
@@ -64,7 +68,8 @@ const danielzielinski = {
   thumbnail: danielSmall,
   competitiveDeck: '',
   edhDeck: '',
-  previousDeck: '',
+  previousDeck: 'Power Artifact',
+  previousPlace: 0,
   judgeLevel: 0,
 };
 
@@ -76,6 +81,7 @@ const vincentbrown = {
   competitiveDeck: '',
   edhDeck: '',
   previousDeck: '4 Color Mentor',
+  previousPlace: 0,
   judgeLevel: 0,
 };
 
@@ -87,6 +93,7 @@ const ericlevine = {
   competitiveDeck: '',
   edhDeck: 'All of them',
   previousDeck: 'N/A',
+  previousPlace: null,
   judgeLevel: 3,
 };
 
