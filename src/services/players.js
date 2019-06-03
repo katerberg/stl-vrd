@@ -2,10 +2,16 @@ import naveenLarge from '../static/pictures/naveen-balaji.jpg';
 import naveenSmall from '../static/pictures/naveen-balaji-small.jpg';
 import jeffLarge from '../static/pictures/jeff-blyden.jpg';
 import jeffSmall from '../static/pictures/jeff-blyden-small.jpg';
-import alexLarge from '../static/pictures/alex-werth.jpg';
-import alexSmall from '../static/pictures/alex-werth-small.jpg';
+import ericLarge from '../static/pictures/eric-levine.jpg';
+import ericSmall from '../static/pictures/eric-levine-small.jpg';
 import stephenLarge from '../static/pictures/stephen-hagan.jpg';
 import stephenSmall from '../static/pictures/stephen-hagan-small.jpg';
+import elaineLarge from '../static/pictures/elaine-cao.jpg';
+import elaineSmall from '../static/pictures/elaine-cao-small.jpg';
+import vincentLarge from '../static/pictures/vincent-brown.jpg';
+import vincentSmall from '../static/pictures/vincent-brown-small.jpg';
+import danielLarge from '../static/pictures/daniel-zielinski.jpg';
+import danielSmall from '../static/pictures/daniel-zielinski-small.jpg';
 
 const naveenbalaji = {
   firstName: 'Naveen',
@@ -15,6 +21,7 @@ const naveenbalaji = {
   competitiveDeck: 'Modern Tron',
   edhDeck: '5-color Charms',
   previousDeck: 'Time Vault',
+  judgeLevel: 0,
 };
 
 const jeffblyden = {
@@ -25,16 +32,7 @@ const jeffblyden = {
   competitiveDeck: 'Legacy Elves',
   edhDeck: 'Foil Skithiryx',
   previousDeck: 'Reanimator',
-};
-
-const alexwerth = {
-  firstName: 'Alex',
-  lastName: 'Werth',
-  picture: alexLarge,
-  thumbnail: alexSmall,
-  competitiveDeck: 'Pauper Monarch',
-  edhDeck: 'Queen Marchesa',
-  previousDeck: 'Mono G Ramp',
+  judgeLevel: 1,
 };
 
 const stephenhagan = {
@@ -43,15 +41,63 @@ const stephenhagan = {
   picture: stephenLarge,
   thumbnail: stephenSmall,
   competitiveDeck: '',
-  edhDeck: '',
+  edhDeck: 'Riku Doublers',
   previousDeck: 'N/A',
+  judgeLevel: 2,
+};
+
+const elainecao = {
+  firstName: 'Elaine',
+  lastName: 'Cao',
+  picture: elaineLarge,
+  thumbnail: elaineSmall,
+  competitiveDeck: 'UW Control',
+  edhDeck: '',
+  previousDeck: 'Hate Bears',
+  judgeLevel: 2,
+};
+
+const danielzielinski = {
+  firstName: 'Daniel',
+  lastName: 'Zielinski',
+  picture: danielLarge,
+  thumbnail: danielSmall,
+  competitiveDeck: '',
+  edhDeck: '',
+  previousDeck: '',
+  judgeLevel: 0,
+};
+
+const vincentbrown = {
+  firstName: 'Vincent',
+  lastName: 'Brown',
+  picture: vincentLarge,
+  thumbnail: vincentSmall,
+  competitiveDeck: '',
+  edhDeck: '',
+  previousDeck: '4 Color Mentor',
+  judgeLevel: 0,
+};
+
+const ericlevine = {
+  firstName: 'Eric',
+  lastName: 'Levine',
+  picture: ericLarge,
+  thumbnail: ericSmall,
+  competitiveDeck: '',
+  edhDeck: 'All of them',
+  previousDeck: 'N/A',
+  judgeLevel: 3,
 };
 
 export const getPlayers = () => ({
   naveenbalaji,
   jeffblyden,
-  alexwerth,
+  vincentbrown,
+  elainecao,
   stephenhagan,
+  ericlevine,
+  danielzielinski,
 });
 
 export default {
