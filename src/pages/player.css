@@ -21,10 +21,12 @@
 }
 
 .player .content .name {
-  position: absolute;
+  position: fixed;
   bottom: 20%;
   left: 40vw;
   right: auto;
+  border-radius: 6px;
+  background: #ffeae4;
 }
 
 .player .content h1 {
@@ -36,4 +38,41 @@
   position: absolute;
   right: 5vw;
   top: 5vh;
+  font-size: 40px;
+}
+
+.player .content .text-block > div {
+  margin: 5vh;
+}
+
+.player .content .text-block label {
+  font-weight: lighter;
+}
+
+@media only screen and (max-width:1170px) {
+  .player .content h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .player .content .text-block {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width:720px) {
+  .player .content img.profile-picture {
+    position: initial;
+  }
+
+  .player .content .name {
+    position: initial;
+    background: transparent;
+    margin: 5vh;
+  }
+
+  .player .content .text-block {
+    position: initial;
+    margin-bottom: 126px;
+  }
 }
