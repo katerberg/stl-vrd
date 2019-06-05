@@ -12,6 +12,8 @@ import vincentLarge from '../static/pictures/vincent-brown.png';
 import vincentSmall from '../static/pictures/vincent-brown-small.jpg';
 import danielLarge from '../static/pictures/daniel-zielinski.png';
 import danielSmall from '../static/pictures/daniel-zielinski-small.jpg';
+import brentLarge from '../static/pictures/brent-yard.png';
+import brentSmall from '../static/pictures/brent-yard-small.jpg';
 
 const naveenbalaji = {
   firstName: 'Naveen',
@@ -97,6 +99,18 @@ const ericlevine = {
   judgeLevel: 3,
 };
 
+const brentyard = {
+  firstName: 'Brent',
+  lastName: 'Yard',
+  picture: brentLarge,
+  thumbnail: brentSmall,
+  competitiveDeck: 'Paradoxical',
+  edhDeck: 'Sygg, River Guide',
+  previousDeck: 'N/A',
+  previousPlace: null,
+  judgeLevel: 1,
+};
+
 export const getPlayers = () => ({
   naveenbalaji,
   jeffblyden,
@@ -104,6 +118,7 @@ export const getPlayers = () => ({
   elainecao,
   stephenhagan,
   ericlevine,
+  brentyard,
   danielzielinski,
 });
 
