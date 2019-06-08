@@ -92,7 +92,7 @@ const ericlevine = {
   lastName: 'Levine',
   picture: ericLarge,
   thumbnail: ericSmall,
-  competitiveDeck: '',
+  competitiveDeck: 'Storm',
   edhDeck: 'All of them',
   previousDeck: 'N/A',
   previousPlace: null,
