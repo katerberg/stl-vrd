@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93a117f074bcb9c372ca32409560f7ac",
+    "revision": "4b1e8e9a33e83ed7874d559441d7504f",
     "url": "/stl-vrd/index.html"
   },
   {
-    "revision": "1e3416908bed6d710ca7",
+    "revision": "fbea4fd2431fab057dd4",
     "url": "/stl-vrd/static/css/main.59ed0ace.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stl-vrd/static/js/2.bf396947.chunk.js"
   },
   {
-    "revision": "1e3416908bed6d710ca7",
-    "url": "/stl-vrd/static/js/main.6b11f50c.chunk.js"
+    "revision": "fbea4fd2431fab057dd4",
+    "url": "/stl-vrd/static/js/main.45982e83.chunk.js"
   },
   {
     "revision": "0c183edee143b497db25",
