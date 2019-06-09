@@ -1,7 +1,5 @@
 import naveenLarge from '../static/pictures/naveen-balaji.png';
 import naveenSmall from '../static/pictures/naveen-balaji-small.jpg';
-import jeffLarge from '../static/pictures/jeff-blyden.png';
-import jeffSmall from '../static/pictures/jeff-blyden-small.jpg';
 import ericLarge from '../static/pictures/eric-levine.png';
 import ericSmall from '../static/pictures/eric-levine-small.jpg';
 import stephenLarge from '../static/pictures/stephen-hagan.png';
@@ -14,6 +12,8 @@ import danielLarge from '../static/pictures/daniel-zielinski.png';
 import danielSmall from '../static/pictures/daniel-zielinski-small.jpg';
 import brentLarge from '../static/pictures/brent-yard.png';
 import brentSmall from '../static/pictures/brent-yard-small.jpg';
+import johnLarge from '../static/pictures/john-koines.png';
+import johnSmall from '../static/pictures/john-koines-small.jpg';
 
 const naveenbalaji = {
   firstName: 'Naveen',
@@ -27,15 +27,15 @@ const naveenbalaji = {
   judgeLevel: 0,
 };
 
-const jeffblyden = {
-  firstName: 'Jeff',
-  lastName: 'Blyden',
-  picture: jeffLarge,
-  thumbnail: jeffSmall,
-  competitiveDeck: 'Legacy Elves',
-  edhDeck: 'Foil Skithiryx',
-  previousDeck: 'Reanimator',
-  previousPlace: 4,
+const johnkoines = {
+  firstName: 'John',
+  lastName: 'Koines',
+  picture: johnLarge,
+  thumbnail: johnSmall,
+  competitiveDeck: '',
+  edhDeck: '',
+  previousDeck: 'N/A',
+  previousPlace: null,
   judgeLevel: 1,
 };
 
@@ -113,10 +113,10 @@ const brentyard = {
 
 export const getPlayers = () => ({
   naveenbalaji,
-  jeffblyden,
   vincentbrown,
   elainecao,
   stephenhagan,
+  johnkoines,
   ericlevine,
   brentyard,
   danielzielinski,
