@@ -32,7 +32,7 @@ const johnkoines = {
   lastName: 'Koines',
   picture: johnLarge,
   thumbnail: johnSmall,
-  competitiveDeck: 'Vintage DPS',
+  competitiveDeck: 'Legacy Lands',
   edhDeck: 'Sen Triplets',
   previousDeck: 'N/A',
   previousPlace: null,
