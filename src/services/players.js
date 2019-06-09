@@ -35,7 +35,7 @@ const jeffblyden = {
   competitiveDeck: 'Legacy Elves',
   edhDeck: 'Foil Skithiryx',
   previousDeck: 'Reanimator',
-  previousPlace: 0,
+  previousPlace: 4,
   judgeLevel: 1,
 };
 
@@ -59,7 +59,7 @@ const elainecao = {
   competitiveDeck: 'UW Control',
   edhDeck: 'None',
   previousDeck: 'Hate Bears',
-  previousPlace: 0,
+  previousPlace: 3,
   judgeLevel: 2,
 };
 
@@ -71,7 +71,7 @@ const danielzielinski = {
   competitiveDeck: '',
   edhDeck: '',
   previousDeck: 'Power Artifact',
-  previousPlace: 0,
+  previousPlace: 5,
   judgeLevel: 0,
 };
 
@@ -83,7 +83,7 @@ const vincentbrown = {
   competitiveDeck: '',
   edhDeck: '',
   previousDeck: '4 Color Mentor',
-  previousPlace: 0,
+  previousPlace: 7,
   judgeLevel: 0,
 };
 
