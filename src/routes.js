@@ -6,9 +6,9 @@ import Home from './pages/home';
 function Routes() {
   return (
     <Switch>
-      <Route path="/" exact component={Home} />
+      <Route path="/stl-vrd" exact component={Home} />
       <Route path="/player/:playerName" exact component={Player} />
-      <Redirect to="/" />
+      <Redirect to="/stl-vrd" />
     </Switch>
   );
 }
