@@ -57,7 +57,7 @@ const elainecao = {
   picture: elaineLarge,
   thumbnail: elaineSmall,
   competitiveDeck: 'UW Control',
-  edhDeck: 'None',
+  edhDeck: 'EDH is for losers',
   previousDeck: 'Grixis Control',
   previousPlace: 3,
   judgeLevel: 2,
