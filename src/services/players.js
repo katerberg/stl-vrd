@@ -46,7 +46,7 @@ const stephenhagan = {
   thumbnail: stephenSmall,
   competitiveDeck: 'Modern Ponza',
   edhDeck: 'Aminatou Prison',
-  previousDeck: 'N/A',
+  previousDeck: 'Two Card Monte (2)',
   previousPlace: null,
   judgeLevel: 2,
 };
