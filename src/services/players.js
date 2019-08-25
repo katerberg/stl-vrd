@@ -10,8 +10,8 @@ import kyleLarge from '../static/pictures/kyle-vance.png';
 import kyleSmall from '../static/pictures/kyle-vance-small.jpg';
 import alecLarge from '../static/pictures/alec-dishaw.png';
 import alecSmall from '../static/pictures/alec-dishaw-small.jpg';
-import justinLarge from '../static/pictures/justin-strohm.png';
-import justinSmall from '../static/pictures/justin-strohm-small.jpg';
+import codyLarge from '../static/pictures/cody-owen.png';
+import codySmall from '../static/pictures/cody-owen-small.jpg';
 import brandonLarge from '../static/pictures/brandon-curry.png';
 import brandonSmall from '../static/pictures/brandon-curry-small.jpg';
 
@@ -99,16 +99,16 @@ const joewisdom = {
   judgeLevel: 0,
 };
 
-const justinstrohm = {
-  firstName: 'Justin',
-  lastName: 'Strohm',
-  picture: justinLarge,
-  thumbnail: justinSmall,
-  competitiveDeck: 'Unknown',
-  edhDeck: 'Unknown',
+const codyowen = {
+  firstName: 'Cody',
+  lastName: 'Owen',
+  picture: codyLarge,
+  thumbnail: codySmall,
+  competitiveDeck: 'Eldrazi & Taxes',
+  edhDeck: 'Yuriko Ninjas',
   previousDeck: 'N/A',
   previousPlace: null,
-  judgeLevel: 0,
+  judgeLevel: 1,
 };
 
 export const getPlayers = () => ({
@@ -118,7 +118,7 @@ export const getPlayers = () => ({
   stephenhagan,
   brandoncurry,
   joewisdom,
-  justinstrohm,
+  codyowen,
   alecdishaw,
 });
 
