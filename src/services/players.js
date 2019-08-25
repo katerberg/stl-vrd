@@ -6,8 +6,8 @@ import stephenLarge from '../static/pictures/stephen-hagan.png';
 import stephenSmall from '../static/pictures/stephen-hagan-small.jpg';
 import elaineLarge from '../static/pictures/elaine-cao.png';
 import elaineSmall from '../static/pictures/elaine-cao-small.jpg';
-import kyleLarge from '../static/pictures/kyle-vance.png';
-import kyleSmall from '../static/pictures/kyle-vance-small.jpg';
+import markLarge from '../static/pictures/mark-katerberg.png';
+import markSmall from '../static/pictures/mark-katerberg-small.jpg';
 import alecLarge from '../static/pictures/alec-dishaw.png';
 import alecSmall from '../static/pictures/alec-dishaw-small.jpg';
 import codyLarge from '../static/pictures/cody-owen.png';
@@ -75,13 +75,13 @@ const alecdishaw = {
   judgeLevel: 0,
 };
 
-const kylevance = {
-  firstName: 'Kyle',
-  lastName: 'Vance',
-  picture: kyleLarge,
-  thumbnail: kyleSmall,
-  competitiveDeck: 'Amulet Titan',
-  edhDeck: 'Tasigur Storm',
+const markkaterberg = {
+  firstName: 'Mark',
+  lastName: 'Katerberg',
+  picture: markLarge,
+  thumbnail: markSmall,
+  competitiveDeck: 'Doomsday',
+  edhDeck: '70-Land Child of Alara',
   previousDeck: 'N/A',
   previousPlace: null,
   judgeLevel: 0,
@@ -113,7 +113,7 @@ const codyowen = {
 
 export const getPlayers = () => ({
   jeffblyden,
-  kylevance,
+  markkaterberg,
   elainecao,
   stephenhagan,
   brandoncurry,
