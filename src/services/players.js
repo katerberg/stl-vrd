@@ -82,9 +82,9 @@ const markkaterberg = {
   thumbnail: markSmall,
   competitiveDeck: 'Doomsday',
   edhDeck: '70-Land Child of Alara',
-  previousDeck: 'N/A',
-  previousPlace: null,
-  judgeLevel: 0,
+  previousDeck: 'Pikula',
+  previousPlace: 2,
+  judgeLevel: 2,
 };
 
 const joewisdom = {
