@@ -2,6 +2,10 @@ import jeffLarge from '../static/pictures/jeff-blyden.png';
 import jeffSmall from '../static/pictures/jeff-blyden-small.jpg';
 import elaineLarge from '../static/pictures/elaine-cao.png';
 import elaineSmall from '../static/pictures/elaine-cao-small.jpg';
+import johnLarge from '../static/pictures/john-morris.png';
+import johnSmall from '../static/pictures/john-morris-small.jpg';
+import cotyLarge from '../static/pictures/coty-gunnet.png';
+import cotySmall from '../static/pictures/coty-gunnet-small.jpg';
 import brandonLarge from '../static/pictures/brandon-curry.png';
 import brandonSmall from '../static/pictures/brandon-curry-small.jpg';
 import cjLarge from '../static/pictures/cj-voege.jpg';
@@ -11,9 +15,9 @@ import kyleSmall from '../static/pictures/kyle-richter-small.jpg';
 import mikeLarge from '../static/pictures/mike-viviano.jpg';
 import mikeSmall from '../static/pictures/mike-viviano-small.jpg';
 
-const jeffblyden = {
-  firstName: 'Jeff',
-  lastName: 'Blyden',
+const nickcalcaterra = {
+  firstName: 'Nick',
+  lastName: 'Calcaterra',
   picture: jeffLarge,
   thumbnail: jeffSmall,
   competitiveDeck: 'Legacy Elves',
@@ -76,7 +80,7 @@ const mikeviviano = {
   lastName: 'Viviano',
   picture: mikeLarge,
   thumbnail: mikeSmall,
-  competitiveDeck: 'Grixis',
+  competitiveDeck: 'Grixis Control',
   edhDeck: 'Nicol Bolas',
   previousDeck: null,
   previousPlace: null,
@@ -86,8 +90,8 @@ const mikeviviano = {
 const johnmorris = {
   firstName: 'John',
   lastName: 'Morris',
-  picture: null,  //TODO I don't have pictures of this guy and I don't know what he plays
-  thumbnail: null,
+  picture: johnLarge,
+  thumbnail: johnSmall,
   competitiveDeck: '??',
   edhDeck: '??',
   previousDeck: null,
@@ -97,18 +101,18 @@ const johnmorris = {
 
 const cotygunnet = {
   firstName: 'Coty',
-  lastName: 'MGunnet',
-  picture: null, //TODO I don't have pictures of this guy and I don't know what he plays 
-  thumbnail: null,
+  lastName: 'Gunnet',
+  picture: cotyLarge,
+  thumbnail: cotySmall,
   competitiveDeck: '??',
   edhDeck: '??',
   previousDeck: null,
   previousPlace: null,
-  judgeLevel: 0,
+  judgeLevel: 1,
 }
 
 export const getPlayers = () => ({
-  jeffblyden,
+  nickcalcaterra,
   brandoncurry,
   elainecao,
   kylerichter,

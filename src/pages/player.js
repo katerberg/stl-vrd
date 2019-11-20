@@ -20,7 +20,7 @@ function Player(props) {
         <div className="text-block">
           <div><label>Competitive Deck:</label> {player.competitiveDeck}</div>
           <div><label>EDH Deck:</label> {player.edhDeck}</div>
-          <div><label>Previous VRD:</label> {player.previousDeck}{player.previousPlace ? ` (${player.previousPlace})`: ''}</div>
+          <div><label>Previous VRD:</label> {player.previousDeck ? player.previousDeck : 'N/A'}{player.previousPlace ? ` (${player.previousPlace})`: ''}</div>
           <div><label>Judge Level:</label> {player.judgeLevel}</div>
         </div>
       </div>
