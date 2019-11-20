@@ -4,11 +4,11 @@ import elaineLarge from '../static/pictures/elaine-cao.png';
 import elaineSmall from '../static/pictures/elaine-cao-small.jpg';
 import brandonLarge from '../static/pictures/brandon-curry.png';
 import brandonSmall from '../static/pictures/brandon-curry-small.jpg';
-import cjLarge from '../static/pictures/cj-voege.png';
+import cjLarge from '../static/pictures/cj-voege.jpg';
 import cjSmall from '../static/pictures/cj-voege-small.jpg';
-import kyleLarge from '../static/pictures/kyle-richter.png';
+import kyleLarge from '../static/pictures/kyle-richter.jpg';
 import kyleSmall from '../static/pictures/kyle-richter-small.jpg';
-import mikeLarge from '../static/pictures/mike-viviano.png';
+import mikeLarge from '../static/pictures/mike-viviano.jpg';
 import mikeSmall from '../static/pictures/mike-viviano-small.jpg';
 
 const jeffblyden = {
