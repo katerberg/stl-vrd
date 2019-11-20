@@ -1,19 +1,15 @@
 import jeffLarge from '../static/pictures/jeff-blyden.png';
 import jeffSmall from '../static/pictures/jeff-blyden-small.jpg';
-import joeLarge from '../static/pictures/joe-wisdom.png';
-import joeSmall from '../static/pictures/joe-wisdom-small.jpg';
-import stephenLarge from '../static/pictures/stephen-hagan.png';
-import stephenSmall from '../static/pictures/stephen-hagan-small.jpg';
 import elaineLarge from '../static/pictures/elaine-cao.png';
 import elaineSmall from '../static/pictures/elaine-cao-small.jpg';
-import markLarge from '../static/pictures/mark-katerberg.png';
-import markSmall from '../static/pictures/mark-katerberg-small.jpg';
-import alecLarge from '../static/pictures/alec-dishaw.png';
-import alecSmall from '../static/pictures/alec-dishaw-small.jpg';
-import codyLarge from '../static/pictures/cody-owen.png';
-import codySmall from '../static/pictures/cody-owen-small.jpg';
 import brandonLarge from '../static/pictures/brandon-curry.png';
 import brandonSmall from '../static/pictures/brandon-curry-small.jpg';
+import cjLarge from '../static/pictures/cj-voege.png';
+import cjSmall from '../static/pictures/cj-voege-small.jpg';
+import kyleLarge from '../static/pictures/kyle-richter.png';
+import kyleSmall from '../static/pictures/kyle-richter-small.jpg';
+import mikeLarge from '../static/pictures/mike-viviano.png';
+import mikeSmall from '../static/pictures/mike-viviano-small.jpg';
 
 const jeffblyden = {
   firstName: 'Jeff',
@@ -22,8 +18,8 @@ const jeffblyden = {
   thumbnail: jeffSmall,
   competitiveDeck: 'Legacy Elves',
   edhDeck: 'Foil Skithiryx',
-  previousDeck: 'Reanimator',
-  previousPlace: 4,
+  previousDeck: 'MUD',
+  previousPlace: 2,
   judgeLevel: 1,
 };
 
@@ -34,21 +30,9 @@ const brandoncurry = {
   thumbnail: brandonSmall,
   competitiveDeck: 'Bogles',
   edhDeck: 'None',
-  previousDeck: 'N/A',
-  previousPlace: null,
+  previousDeck: 'BUG pile',
+  previousPlace: 3,
   judgeLevel: 0,
-};
-
-const stephenhagan = {
-  firstName: 'Stephen',
-  lastName: 'Hagan',
-  picture: stephenLarge,
-  thumbnail: stephenSmall,
-  competitiveDeck: 'Modern Ponza',
-  edhDeck: 'Aminatou Prison',
-  previousDeck: 'Two Card Monte (2)',
-  previousPlace: null,
-  judgeLevel: 2,
 };
 
 const elainecao = {
@@ -56,70 +40,82 @@ const elainecao = {
   lastName: 'Cao',
   picture: elaineLarge,
   thumbnail: elaineSmall,
-  competitiveDeck: 'UW Control',
+  competitiveDeck: 'Stoneblade',
   edhDeck: 'None',
-  previousDeck: 'Grixis Control',
-  previousPlace: 3,
+  previousDeck: 'UwU control',
+  previousPlace: 1,
   judgeLevel: 2,
 };
 
-const alecdishaw = {
-  firstName: 'Alec',
-  lastName: 'Dishaw',
-  picture: alecLarge,
-  thumbnail: alecSmall,
-  competitiveDeck: 'Vizier Combo',
-  edhDeck: 'Riku',
-  previousDeck: 'N/A',
-  previousPlace: null,
-  judgeLevel: 0,
-};
-
-const markkaterberg = {
-  firstName: 'Mark',
-  lastName: 'Katerberg',
-  picture: markLarge,
-  thumbnail: markSmall,
-  competitiveDeck: 'Doomsday',
-  edhDeck: '70-Land Child of Alara',
-  previousDeck: 'Pikula',
-  previousPlace: 2,
-  judgeLevel: 2,
-};
-
-const joewisdom = {
-  firstName: 'Joe',
-  lastName: 'Wisdom',
-  picture: joeLarge,
-  thumbnail: joeSmall,
-  competitiveDeck: 'Titanshift',
-  edhDeck: 'Najeela Hulk',
-  previousDeck: 'N/A',
-  previousPlace: null,
-  judgeLevel: 0,
-};
-
-const codyowen = {
-  firstName: 'Cody',
-  lastName: 'Owen',
-  picture: codyLarge,
-  thumbnail: codySmall,
-  competitiveDeck: 'Eldrazi & Taxes',
-  edhDeck: 'Yuriko Ninjas',
-  previousDeck: 'N/A',
+const kylerichter = {
+  firstName: 'Kyle',
+  lastName: 'Richter',
+  picture: kyleLarge,
+  thumbnail: kyleSmall,
+  competitiveDeck: 'Mono Red',
+  edhDeck: 'Mono Red',
+  previousDeck: null,
   previousPlace: null,
   judgeLevel: 1,
-};
+}
+
+const cjvoege = {
+  firstName: 'CJ',
+  lastName: 'Voege',
+  picture: cjLarge,
+  thumbnail: cjSmall,
+  competitiveDeck: 'Blue-red cards',
+  edhDeck: 'None',
+  previousDeck: null,
+  previousPlace: null,
+  judgeLevel: 0,
+}
+
+const mikeviviano = {
+  firstName: 'Mike',
+  lastName: 'Viviano',
+  picture: mikeLarge,
+  thumbnail: mikeSmall,
+  competitiveDeck: 'Grixis',
+  edhDeck: 'Nicol Bolas',
+  previousDeck: null,
+  previousPlace: null,
+  judgeLevel: 0,
+}
+
+const johnmorris = {
+  firstName: 'John',
+  lastName: 'Morris',
+  picture: null,  //TODO I don't have pictures of this guy and I don't know what he plays
+  thumbnail: null,
+  competitiveDeck: '??',
+  edhDeck: '??',
+  previousDeck: null,
+  previousPlace: null,
+  judgeLevel: 0,
+}
+
+const cotygunnet = {
+  firstName: 'Coty',
+  lastName: 'MGunnet',
+  picture: null, //TODO I don't have pictures of this guy and I don't know what he plays 
+  thumbnail: null,
+  competitiveDeck: '??',
+  edhDeck: '??',
+  previousDeck: null,
+  previousPlace: null,
+  judgeLevel: 0,
+}
 
 export const getPlayers = () => ({
   jeffblyden,
-  markkaterberg,
-  elainecao,
-  stephenhagan,
   brandoncurry,
-  joewisdom,
-  codyowen,
-  alecdishaw,
+  elainecao,
+  kylerichter,
+  cjvoege,
+  mikeviviano,
+  johnmorris,
+  cotygunnet,
 });
 
 export default {
