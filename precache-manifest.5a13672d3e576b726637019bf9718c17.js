@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c9ad3b781533b761a28aa224712a3c8",
+    "revision": "4e6c3118dd2de7457a62425e77a71002",
     "url": "/stl-vrd/index.html"
   },
   {
-    "revision": "bfc13b7020772a3ef19b",
+    "revision": "eaf0cdba666eb097efeb",
     "url": "/stl-vrd/static/css/main.805ac146.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stl-vrd/static/js/2.f295e78d.chunk.js"
   },
   {
-    "revision": "bfc13b7020772a3ef19b",
-    "url": "/stl-vrd/static/js/main.1b4c085b.chunk.js"
+    "revision": "eaf0cdba666eb097efeb",
+    "url": "/stl-vrd/static/js/main.78aed4d5.chunk.js"
   },
   {
     "revision": "0c183edee143b497db25",
@@ -52,8 +52,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stl-vrd/static/media/elaine-cao.062d9d65.png"
   },
   {
-    "revision": "26c718fdf395a5d6aedfa510356c5881",
-    "url": "/stl-vrd/static/media/john-morris.26c718fd.png"
+    "revision": "ccaf092e33ceb39468bc51249c66e615",
+    "url": "/stl-vrd/static/media/john-morris-small.ccaf092e.jpg"
+  },
+  {
+    "revision": "2fc89acee95d25a9d7bf18b916bd9265",
+    "url": "/stl-vrd/static/media/john-morris.2fc89ace.png"
   },
   {
     "revision": "d89b424ce43a1c9788b7e0e1cf5299db",

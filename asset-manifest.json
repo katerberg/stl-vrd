@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/stl-vrd/static/css/main.805ac146.chunk.css",
-    "main.js": "/stl-vrd/static/js/main.1b4c085b.chunk.js",
-    "main.js.map": "/stl-vrd/static/js/main.1b4c085b.chunk.js.map",
+    "main.js": "/stl-vrd/static/js/main.78aed4d5.chunk.js",
+    "main.js.map": "/stl-vrd/static/js/main.78aed4d5.chunk.js.map",
     "runtime~main.js": "/stl-vrd/static/js/runtime~main.c8039081.js",
     "runtime~main.js.map": "/stl-vrd/static/js/runtime~main.c8039081.js.map",
     "static/js/2.f295e78d.chunk.js": "/stl-vrd/static/js/2.f295e78d.chunk.js",
     "static/js/2.f295e78d.chunk.js.map": "/stl-vrd/static/js/2.f295e78d.chunk.js.map",
     "index.html": "/stl-vrd/index.html",
-    "precache-manifest.68e930d84e29ddcb58b9a36a5299d00e.js": "/stl-vrd/precache-manifest.68e930d84e29ddcb58b9a36a5299d00e.js",
+    "precache-manifest.5a13672d3e576b726637019bf9718c17.js": "/stl-vrd/precache-manifest.5a13672d3e576b726637019bf9718c17.js",
     "service-worker.js": "/stl-vrd/service-worker.js",
     "static/css/main.805ac146.chunk.css.map": "/stl-vrd/static/css/main.805ac146.chunk.css.map",
     "static/media/background.png": "/stl-vrd/static/media/background.52dfc6cc.png",
@@ -19,7 +19,8 @@
     "static/media/coty-gunnet.png": "/stl-vrd/static/media/coty-gunnet.9693edba.png",
     "static/media/elaine-cao-small.jpg": "/stl-vrd/static/media/elaine-cao-small.f8146623.jpg",
     "static/media/elaine-cao.png": "/stl-vrd/static/media/elaine-cao.062d9d65.png",
-    "static/media/john-morris.png": "/stl-vrd/static/media/john-morris.26c718fd.png",
+    "static/media/john-morris-small.jpg": "/stl-vrd/static/media/john-morris-small.ccaf092e.jpg",
+    "static/media/john-morris.png": "/stl-vrd/static/media/john-morris.2fc89ace.png",
     "static/media/kyle-richter-small.jpg": "/stl-vrd/static/media/kyle-richter-small.d89b424c.jpg",
     "static/media/kyle-richter.jpg": "/stl-vrd/static/media/kyle-richter.847aee7f.jpg",
     "static/media/mike-viviano.jpg": "/stl-vrd/static/media/mike-viviano.7a446232.jpg"
