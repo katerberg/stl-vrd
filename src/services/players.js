@@ -1,5 +1,5 @@
-import jeffLarge from '../static/pictures/jeff-blyden.png';
-import jeffSmall from '../static/pictures/jeff-blyden-small.jpg';
+import codyLarge from '../static/pictures/cody-owen.png';
+import codySmall from '../static/pictures/cody-owen-small.jpg';
 import elaineLarge from '../static/pictures/elaine-cao.png';
 import elaineSmall from '../static/pictures/elaine-cao-small.jpg';
 import johnLarge from '../static/pictures/john-morris.png';
@@ -15,15 +15,15 @@ import kyleSmall from '../static/pictures/kyle-richter-small.jpg';
 import mikeLarge from '../static/pictures/mike-viviano.jpg';
 import mikeSmall from '../static/pictures/mike-viviano-small.jpg';
 
-const nickcalcaterra = {
-  firstName: 'Nick',
-  lastName: 'Calcaterra',
-  picture: jeffLarge,
-  thumbnail: jeffSmall,
-  competitiveDeck: 'Legacy Elves',
-  edhDeck: 'Foil Skithiryx',
-  previousDeck: 'MUD',
-  previousPlace: 2,
+const codyowen = {
+  firstName: 'Cody',
+  lastName: 'Owen',
+  picture: codyLarge,
+  thumbnail: codySmall,
+  competitiveDeck: 'Eldrazi & Taxes',
+  edhDeck: 'Yuriko Ninjas',
+  previousDeck: 'Reanimator',
+  previousPlace: 5,
   judgeLevel: 1,
 };
 
@@ -112,7 +112,7 @@ const cotygunnet = {
 }
 
 export const getPlayers = () => ({
-  nickcalcaterra,
+  codyowen,
   brandoncurry,
   elainecao,
   kylerichter,
